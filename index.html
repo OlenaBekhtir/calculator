@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HW25-calculator</title>
+</head>
+<body>
+    <div class="box">
+        <div class="display">
+          <input type="text" class="inputStr" readonly size="18">
+        </div>
+        <div class="keys">
+          <p>
+            <input type="button" class="button gray letter-mrc" value="mrc">
+            <input type="button" class="button gray letter-m" value="m-">
+            <input type="button" class="button gray letter-m" value="m+">
+            <input type="button" class="button pink number" data-btn="/" value="/">
+          </p>
+          <p>
+            <input type="button" class="button black number" data-btn="7" value="7">
+            <input type="button" class="button black number" data-btn="8" value="8">
+            <input type="button" class="button black number" data-btn="9" value="9">
+            <input type="button" class="button pink number" data-btn="*" value="*">
+          </p>
+          <p>
+            <input type="button" class="button black number" data-btn="4" value="4">
+            <input type="button" class="button black number" data-btn="5" value="5">
+            <input type="button" class="button black number" data-btn="6" value="6">
+            <input type="button" class="button pink number" data-btn="-" value="-">
+          </p>
+          <p>
+            <input type="button" class="button black number" data-btn="1" value="1">
+            <input type="button" class="button black number" data-btn="2" value="2">
+            <input type="button" class="button black number" data-btn="3" value="3">
+            <input type="button" class="button pink number" data-btn="+" value="+">
+          </p>
+          <p>
+            <input type="button" class="button black number" data-btn="0" value="0">
+            <input type="button" class="button black number" data-btn="." value=".">
+            <input type="button" class="button black btn-clean" value="C">
+            <input type="button" class="button orange" value="=">
+          </p>
+        </div>
+      </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
